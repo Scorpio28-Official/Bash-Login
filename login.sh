@@ -1,3 +1,5 @@
+#!/bim/bash
+trap ctrl_c
 echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
 clear
 echo -e "
