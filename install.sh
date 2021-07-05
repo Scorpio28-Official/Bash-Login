@@ -17,22 +17,19 @@ blanco="[1;37m"
 #
 # CÓDIGO
 #
-echo -e -n "${negro}
-┌════════════════════════┐
-█ ${verde}INGRESE UNA CONTRASEÑA ${negro}█
-└════════════════════════┘
-┃
-└═>>> "${verde}
-read -r KEY
-sleep 0.5
-sed -i "s/key/${KEY}/" login.sh
-echo -e "source /data/data/com.termux/files/home/Banner-Login/login.sh" >> ${PREFIX}/etc/bash.bashrc
-echo -e "${negro}
-┌═════════════════┐
-█ ${verde}LOGIN INSTALADO ${negro}█
-└═════════════════┘
+echo "\e[1;30m-----------------------------------------------------\e[0m"
+echo "\e[1;32m             TERMUX LOGIN BY SCORPIO28.        \e[0m"
+echo "\e[1;32mIt will take some time to install please be patience.\e[0m"
+echo "\e[1;30m-----------------------------------------------------\e0m"
 
-┌══════════════════┐
-█ ${verde}REINICIAR TERMUX ${negro}█
-└══════════════════┘
-"${blanco}
+
+cp login.sh $PREFIX/etc
+apt update
+pkg install cmatrix
+apt-get install -y ruby
+apt-get install -y espeak
+apt install python
+pip install lolcat
+
+echo -e "source /data/data/com.termux/files/home/Bash-Login/login.sh" >> ${PREFIX}/etc/bash.bashrc
+echo -e " " 
