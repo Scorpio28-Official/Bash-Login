@@ -17,10 +17,10 @@ blanco="[1;37m"
 #
 # CÓDIGO
 #
-echo "\e[1;30m-----------------------------------------------------\e[0m"
-echo "\e[1;32m             TERMUX LOGIN BY SCORPIO28.        \e[0m"
-echo "\e[1;32mIt will take some time to install please be patience.\e[0m"
-echo "\e[1;30m-----------------------------------------------------\e0m"
+echo -e "\e[1;30m-----------------------------------------------------\e[0m"
+echo -e "\e[1;32m             TERMUX LOGIN BY SCORPIO28.        \e[0m"
+echo -e "\e[1;32mIt will take some time to install please be patience.\e[0m"
+echo -e "\e[1;30m-----------------------------------------------------\e0m"
 
 
 cp login.sh $PREFIX/etc
