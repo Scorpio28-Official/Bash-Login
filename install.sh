@@ -32,5 +32,5 @@ apt-get install -y espeak
 apt install python
 pip install lolcat
 
-echo -e "source /data/data/com.termux/files/home/Bash-Login/login.sh" >> ${PREFIX}/etc/bash.bashrc
+source /data/data/com.termux/files/home/Bash-Login/login.sh >> ${PREFIX}/etc/bash.bashrc
 echo -e " " 
