@@ -1,7 +1,7 @@
 #!/bim/bash
 trap ctrl_c
-echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
-clear
+source /data/data/com.termux/files/home/Bash-Login/login.sh >> ${PREFIX}/etc/bash.bashrc
+echo -e " " 
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
 \e[1;32m█▀▀▄ █▄▄█ ▀▀█ █▀▀█ \e[1;30m█░░░ █░░█ █░▀█ ▀█▀ █░░█
