@@ -1,5 +1,6 @@
 #!/bim/bash
-source /data/data/com.termux/files/home/Bash-Login/login.sh >> ${PREFIX}/etc/bash.bashrc
+echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
+clear
 trap ctrl_c
 echo -e " " 
 echo -e "
