@@ -25,6 +25,7 @@ echo "\e[1;30m-----------------------------------------------------\e0m"
 
 cp login.sh $PREFIX/etc
 apt update
+pkg install pv
 pkg install cmatrix
 apt-get install -y ruby
 apt-get install -y espeak
