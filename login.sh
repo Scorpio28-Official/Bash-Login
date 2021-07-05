@@ -1,6 +1,5 @@
 #!/bim/bash
-trap ctrl_c
-source /data/data/com.termux/files/home/Bash-Login/login.sh >> ${PREFIX}/etc/bash.bashrc
+trap ctrl_c 2
 echo -e " " 
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
