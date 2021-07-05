@@ -1,4 +1,24 @@
 #!/bim/bash
+#
+# [Open Source] - [Código Abierto]
+#
+# Banner-Login: (04/07/2021)
+#
+# COLORES
+#
+negro="[1;30m"
+azul="[1;34m"
+verde="[1;32m"
+cian="[1;36m"
+rojo="[1;31m"
+purpura="[1;35m"
+amarillo="[1;33m"
+blanco="[1;37m"
+#
+# CÓDIGO
+Scorpio28(){
+#
+#!/bim/bash
 trap ctrl_c
 echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
 clear
@@ -106,7 +126,7 @@ echo -e "\e[1;30m
 └════════════════════════════════════════┘
 \e[0m" | pv -qL 8888
 PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
-shopt -s autocd
+ctrl_c(){shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
 shopt -s checkwinsize
@@ -133,8 +153,16 @@ sleep 3
 exit
 fi
 trap 2
+}
+Login(){
+Scorpio28
 LOGIN
 echo -e "\e[1;30m
 ┌════════════════════════════════┐
 █ \e[1;32mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
+sleep 1
+login
+fi
+}
+login
