@@ -23,17 +23,3 @@ $ chmod 777 login.sh
 $ bash login.sh
 ```
 ### By: Por Scorpio28
-
-
-<p align="center">
-	<img src="https://i.imgur.com/sooVigF.jpg" width="600px">
-</p>
-<p align="center">
-	<img src="https://i.imgur.com/VOjMSa6.jpg" width="600px">
-</p>
-<p align="center">
-	<img src="https://i.imgur.com/VOjMSa6.jpg" width="600px">
-</p>
-<p align="center">
-	<img src="https://i.imgur.com/hurXvc5.jpg" width="600px">
-</p>
