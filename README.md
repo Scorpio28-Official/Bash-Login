@@ -29,7 +29,7 @@ $ bash login.sh
 	<img src="https://i.imgur.com/sooVigF.jpg" width="600px">
 </p>
 <p align="center">
-	<img src="https://i.imgur.com/WQl1xPq.jpg" width="600px">
+	<img src="https://i.imgur.com/VOjMSa6.jpg" width="600px">
 </p>
 <p align="center">
 	<img src="https://i.imgur.com/VOjMSa6.jpg" width="600px">
