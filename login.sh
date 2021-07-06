@@ -1,11 +1,4 @@
 #!/bim/bash
-#
-# [Open Source] - [Código Abierto]
-#
-# Bash-Login: (04/07/2021)
-#
-# CÓDIGO
-#!/bim/bash
 trap ctrl_c
 echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
 clear
