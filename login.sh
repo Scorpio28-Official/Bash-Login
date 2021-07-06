@@ -2,25 +2,10 @@
 #
 # [Open Source] - [Código Abierto]
 #
-# Banner-Login: (04/07/2021)
-#
-# COLORES
-#
-negro="[1;30m"
-azul="[1;34m"
-verde="[1;32m"
-cian="[1;36m"
-rojo="[1;31m"
-purpura="[1;35m"
-amarillo="[1;33m"
-blanco="[1;37m"
+# Bash-Login: (04/07/2021)
 #
 # CÓDIGO
-#
-read -r KEY
-sleep 0.5
-sed -i "s/key/${KEY}/" login.sh
-clear
+#!/bim/bash
 trap ctrl_c
 echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
 clear
