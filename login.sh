@@ -143,8 +143,6 @@ echo -e "\e[1;30m
 └════════════════════════════════════════┘
 \e[0m" | pv -qL 8888
 PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
-}
-ctrl_c(){
 shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
@@ -168,10 +166,6 @@ echo -e "\e[1;31m
 █ \e[1;32m>>>\e[1;37m ACCESS DENIED CLOSING THE TERMINAL! \e[1;32m<<< \e[1;31m█
 └═════════════════════════════════════════════┘
 \e[0m"
-Scorpio28
-}
-Login(){
-Scorpio28
 sleep 3
 exit
 fi
@@ -181,8 +175,4 @@ echo -e "\e[1;30m
 ┌════════════════════════════════┐
 █ \e[1;32mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
-sleep 1
-Login
-fi
-}
-Login
+
