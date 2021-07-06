@@ -17,10 +17,13 @@ blanco="[1;37m"
 #
 # CÓDIGO
 #
-echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
+read -r KEY
+sleep 0.5
+sed -i "s/key/${KEY}/" login.sh
 clear
 trap ctrl_c
-echo -e " " 
+echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
+clear
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
 \e[1;32m█▀▀▄ █▄▄█ ▀▀█ █▀▀█ \e[1;30m█░░░ █░░█ █░▀█ ▀█▀ █░░█
@@ -42,9 +45,6 @@ read -p $'\e[1;30m
 └════════════════════════════┘
 ┃
 └═>>>\e[1;32m ' password
-read -r KEY
-sleep 0.5
-sed -i "s/key/${KEY}/" login.sh
 cd 
 cd ..
 cd usr/etc
@@ -52,21 +52,6 @@ rm motd
 rm bash.bashrc
 cat <<LOGIN>bash.bashrc
 trap '' 2
-#!/bim/bash
-trap ctrl_c 2
-PASSWORD="key"
-DATE=$(date)
-# COLORES
-negro="\e[1;30m"
-azul="\e[1;34m"
-verde="\e[1;32m"
-cian="\e[1;36m"
-rojo="\e[1;31m"
-purpura="\e[1;35m"
-amarillo="\e[1;33m"
-blanco="\e[1;37m"
-# CÓDIGO
-Scorpio28(){
 sleep 0.5
 echo -e "
 \e[1;30m╔══════════════════════════════════════════════════════╗\e[1;32m
@@ -175,4 +160,3 @@ echo -e "\e[1;30m
 ┌════════════════════════════════┐
 █ \e[1;32mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
-
