@@ -41,6 +41,7 @@ cd
 cd ..
 cd usr/etc
 rm motd
+rm bash.bashrc
 cat <<LOGIN>bash.bashrc
 trap '' 2
 sleep 0.5
