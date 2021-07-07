@@ -4,8 +4,8 @@ echo -e "\e[1;37m
                         BY SCORPIO28        
             Starting the Bash-Login installation
 -----------------------------------------------------------\e[0m"
-
-
+echo
+echo
 cp login.sh $PREFIX/etc
 apt update
 pkg install pv
