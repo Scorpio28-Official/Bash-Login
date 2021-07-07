@@ -1,8 +1,9 @@
 #!/bim/bash
-echo -e "\e[1;30m-----------------------------------------------------\e[0m"
-echo -e "\e[1;32m                     BY SCORPIO28        \e[0m"
-echo -e "\e[1;32m         Starting the Bash-Login installation\e[0m"
-echo -e "\e[1;30m-----------------------------------------------------\e[1;32m"
+echo -e "\e[1;37m
+-----------------------------------------------------
+                     BY SCORPIO28        
+         Starting the Bash-Login installation
+-----------------------------------------------------\e[0m" | pv -qL 750
 
 
 cp login.sh $PREFIX/etc
