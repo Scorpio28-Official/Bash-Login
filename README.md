@@ -10,8 +10,6 @@ Es un scrip creado en bash  el cual contiene dos banner uno de bienvenida y otro
 ```
 $ apt update && apt upgrade
 
-$ pkg install pv
-
 $ pkg install git bash -y
 
 $ git clone https://github.com/Scorpio28-Official/Bash-Login
