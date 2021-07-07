@@ -1,6 +1,19 @@
 #!/bim/bash
-trap ctrl_c
-echo -e  "source /data/data/com.termux/files/home/Bash-Login/login.sh"  >> ${PREFIX}/etc/bash.bashrc
+echo -e "\e[1;30m-----------------------------------------------------\e[0m"
+echo -e "\e[1;32m                     BY SCORPIO28        \e[0m"
+echo -e "\e[1;32m         Starting the Bash-Login installation\e[0m"
+echo -e "\e[1;30m-----------------------------------------------------\e[1;32m"
+
+
+cp login.sh $PREFIX/etc
+apt update
+pkg install pv
+pkg install cmatrix
+apt-get install -y ruby
+apt-get install -y espeak
+apt install python
+pip install lolcat
+#!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
 \e[1;32m█▀▀█ █▀▀█ █▀▀ █░░█ \e[1;30m█░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
