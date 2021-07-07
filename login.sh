@@ -1,9 +1,9 @@
 #!/bim/bash
 echo -e "\e[1;37m
------------------------------------------------------
-                     BY SCORPIO28        
-         Starting the Bash-Login installation
------------------------------------------------------\e[0m" | pv -qL 750
+-----------------------------------------------------------
+                        BY SCORPIO28        
+            Starting the Bash-Login installation
+-----------------------------------------------------------\e[0m"
 
 
 cp login.sh $PREFIX/etc
