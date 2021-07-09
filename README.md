@@ -21,3 +21,18 @@ $ chmod 777 login.sh
 $ bash login.sh
 ```
 ### By: Por Scorpio28
+
+#### Captura 1
+<p align="center">
+	<img src="https://i.imgur.com/9sXk5d0.jpg" width="600px">
+</p>
+
+#### Captura 2
+<p align="center">
+	<img src="https://i.imgur.com/zRITxlX.jpg" width="600px">
+</p>
+
+#### Captura 3
+<p align="center">
+	<img src="https://i.imgur.com/aH0yckB.jpg" width="600px">
+</p>
