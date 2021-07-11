@@ -1,8 +1,8 @@
 #!/bim/bash
 echo -e "\e[1;37m
 -----------------------------------------------------------
-                        BY SCORPIO28        
-            Starting the Bash-Login installation
+                  B Y  S C O R P I O 2 8        
+           Starting the Bash-Login installation
 -----------------------------------------------------------\e[0m"
 echo
 cp login.sh $PREFIX/etc
@@ -20,9 +20,9 @@ echo -e "
 \e[1;32m█▀▀▄ █▄▄█ ▀▀█ █▀▀█ \e[1;30m█░░░ █░░█ █░▀█ ▀█▀ █░░█
 \e[1;32m█▄▄█ ▀░░▀ ▀▀▀ ▀░░▀ \e[1;30m█▄▄█ ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀░░▀
 \e[1;32m
-[+] Creator: Scorpio28
-[+] Team: Informatic in Termux
-[+] Github: https://github.com/Scorpio28-Oficial
+[+] CREATOR: Scorpio28
+[+] TEAM: Informatic in Termux
+[+] CONMUNITY: https://t.me/Informatic_in_Termux
 \e[0m"
 read -p $'\e[1;30m
 ┌════════════════════════════┐
